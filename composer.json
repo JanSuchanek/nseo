@@ -1,0 +1,15 @@
+{
+    "name": "jansuchanek/nseo",
+    "description": "SEO toolkit for Nette — meta tags, Open Graph, Twitter cards, JSON-LD, sitemap generator",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "nette/di": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "NSeo\\": "src/"
+        }
+    }
+}
